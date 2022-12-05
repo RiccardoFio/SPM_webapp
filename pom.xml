@@ -66,8 +66,8 @@
           <artifactId>tomcat7-maven-plugin</artifactId>
           <version>2.2</version>
           <configuration>
-            <username>war-deployer</username>
-            <password>maven-tomcat-plugin</password>
+            <username>deploy</username>
+            <password>123</password>
             <update>true</update>
           </configuration>
         </plugin>
