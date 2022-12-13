@@ -12,14 +12,14 @@ import java.time.Duration;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class SeleniumTest {
-    WebDriver driver=new ChromeDriver();
+    WebDriver driver;
 
     @BeforeEach
     void setUp() throws Exception {
         WebDriverManager.chromedriver().setup();
-        ChromeOptions options = new ChromeOptions();
-        driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        //ChromeOptions options = new ChromeOptions();
+        driver = new ChromeDriver();
+        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
 /*
